@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Javascript</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="container">
+      <h1 id="titulo">Hola soy un documento en HTML</h1>
+      <p id="parrafo" class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, enim?</p>
+      <p id="parrafo" class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, enim?</p>
+
+      <!-- Una forma para capturar el evento del click del boton -->
+      <!-- onclick="alert('Click')" -->
+      <button id="boton" class="btn btn-info">Cambiar</button>
+    </div>
+
+    <script>
+      // //Capturar el h1
+
+      // var h1 = document.getElementById("titulo");
+
+      // //acceder a todo el h1
+
+      // console.log(h1);
+
+      // //acceder a lo que esta escrito dentro de las etiquetas html
+
+      // console.log(h1.innerHTML);
+
+      // //Modificar el texto dentro del h1
+
+      // // h1.innerHTML = "A un nuevo texto";
+
+      // //Modificar el estilo del h1
+
+      // h1.style.color = "red";
+      // h1.style.background = "blue";
+
+      // var parrafo = document.getElementById("parrafo");
+      // parrafo.style.color = "olive";
+
+      // Otra forma de acceder al boton
+
+      // var boton = document.getElementById("boton");
+
+      //cambiar el color al acceder al boton con una funcion
+
+      // boton.onclick = function (){
+      //   parrafo.style.color = "olive";
+
+      // }
+
+      // otra forma de cambiar el color al acceder al boton con una funcion
+
+      // function cambiar(){
+      //   parrafo.style.color = "olive";
+
+      // }
+
+      // boton.onclick = cambiar;
+
+      // otra forma de acceder a un elemento
+
+      // var parrafo = document.getElementsByClassName("lead");
+
+      // console.log(parrafo[0]);
+
+      // otra forma de acceder a un solo elemento
+
+      // var parrafo = document.querySelector('p');
+
+      // console.log(parrafo);
+
+      // otra forma de acceder a varios elemento
+
+      // var parrafo = document.querySelectorAll('p');
+
+      // console.log(parrafo);
+      
+      // acceder a eventos
+
+      // var boton = document.getElementById("boton");
+      
+      // boton.addEventListener('click',function (){
+      //   console.log("Me diste un click");
+      // })
+      
+      // boton.addEventListener('mouseover',function (){
+      //   console.log("He detectado al raton");
+      // })
+
+      // boton.addEventListener('mouseout',function (){
+      //   console.log("Adios raton");
+      // })
+
+
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>
